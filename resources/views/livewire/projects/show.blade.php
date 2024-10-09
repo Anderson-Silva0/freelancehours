@@ -1,5 +1,3 @@
-<div>
-    <pre>
-        description: {!! $project->description !!}
-    </pre>
+<div class="col-span-2">
+    <x-projects.card :$project />
 </div>
